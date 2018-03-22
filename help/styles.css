@@ -1,0 +1,38 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*.wrapper{
+	background: #e4e5e7;
+}*/
+.header{
+	background: #ffffff;
+	height: 90px;
+}
+#logo h1{
+	margin: 0;
+	height: 90px;
+	line-height: 90px;
+}
+#cart{
+	height: 90px;
+	line-height: 90px;
+}
+#cart a{
+	color: #343e5c;
+}
+#cart a:last-child{
+	color: #343e5c;
+	font-weight: bold;
+	background: url('../img/cart.png') no-repeat center;
+}	
+#cart a:hover{
+	color: #232323;
+	text-decoration: none;
+}
+/*reponsive*/
+@media (max-width: 992px) {
+	#cart a.display{
+		display: none;
+	}
+}
